@@ -1,0 +1,46 @@
+### stat
+cpu  470500 35600 58400 36991760 2300 2300 0 0 0 0
+cpu0 235250 17800 29200 18495880 1150 1150 0 0 0 0
+cpu1 235250 17800 29200 18495880 1150 1150 0 0 0 0
+
+### meminfo
+MemTotal:       32824960 kB
+MemFree:         4123560 kB
+MemAvailable:   18456200 kB
+Buffers:          345600 kB
+Cached:          8900120 kB
+SwapTotal:       4194300 kB
+SwapFree:        3560000 kB
+
+### loadavg
+0.42 0.58 0.65 1/450 12894
+
+### uptime
+345678.90 1234567.89
+
+### netdev
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo: 123456       10    0    0    0     0          0         0   123456       10    0    0    0     0       0          0
+  eth0: 5000000000 3500000    0    0    0     0          0         0 2500000000 2100000    0    0    0     0       0          0
+
+### df
+Filesystem     1B-blocks        Used   Available Use% Mounted on
+/dev/sda1    52844834816 26422417408 23724830720  53% /
+/dev/sdb1   105689669632 84551735705 15764029440  85% /data
+
+### os
+PRETTY_NAME="Ubuntu 22.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.3 LTS (Jammy Jellyfish)"
+
+### cpuinfo
+model name	: AMD EPYC 7763 64-Core Processor
+cores: 4
+
+### services
+nginx active
+postgresql active
+redis-server inactive
+unknown-service unknown

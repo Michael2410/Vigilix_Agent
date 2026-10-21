@@ -1,0 +1,39 @@
+{
+  "boot_time": "2026-10-15T18:42:33Z",
+  "os_name": "Microsoft Windows Server 2022 Datacenter",
+  "os_version": "10.0.20348",
+  "mem_total_kb": 33554432,
+  "mem_free_kb": 12582912,
+  "cpu_model": "Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz",
+  "cpu_cores": 16,
+  "cpu_usage_pct": 28.5,
+  "disks": [
+    {
+      "device": "C:",
+      "size_bytes": 107374182400,
+      "free_bytes": 42949672960
+    },
+    {
+      "device": "D:",
+      "size_bytes": 536870912000,
+      "free_bytes": 322122547200
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "Ethernet0",
+      "rx_bps": 1250000,
+      "tx_bps": 650000
+    }
+  ],
+  "services": [
+    {
+      "name": "MSSQLSERVER",
+      "status": "running"
+    },
+    {
+      "name": "W3SVC",
+      "status": "stopped"
+    }
+  ]
+}
